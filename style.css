@@ -1,0 +1,109 @@
+body {
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+.navigator {
+  background-color:  black;
+  padding: 20px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+a:link {
+  text-decoration: none;
+  color: white;
+}
+
+a:visited {
+  color: grey;
+}
+
+button {
+  border: 0;
+  color: white;
+  background-color:  transparent;
+  font-family: Open Sans;
+  font-weight: bold;
+  font-size: 20px;
+  text-transform: uppercase;  
+}
+
+.MainInro-Containerbox {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+#AnakinPic{
+  object-fit: cover;
+  width: 360px;
+  height: 337px;
+  filter: grayscale(100%); 
+}
+
+.Picture container {
+  position: relative;
+}
+
+.Intro-container {
+  margin-left: 20px;
+  margin-top: 0px;
+  margin-bottom: 1px;
+  font-family: Open Sans;
+  font-weight: 300;
+  font-size: 18px;
+}
+
+.Introtext {
+  text-align: justify;
+}
+
+.CV-element-container {
+  display: flex;
+  margin-bottom: 10px;
+  margin-top: 25px;
+}
+
+.CV-text {
+  width: 50%;
+  height: auto;
+  font-family: Open Sans;
+  font-weight: 300;
+  margin-right: 20px;
+}
+
+.blockquote {
+  width: 50%;
+  height: 205px;
+  color: white;
+  background:   #404040;
+  font-family: Open Sans;
+  font-size: 43px;
+  color: #ffff;
+  position: relative;
+}
+
+blockquote::before {
+  content: '”';
+  font-size: 200px;
+  position: absolute;
+  font-family: 'Alex Brush', cursive;
+  top: -70px;
+  left: 5px;  
+}
+
+#third-blockquote {
+  width: 50%;
+  height: 270px;
+}
+
+
+h2 {
+  text-transform: uppercase;
+  margin-top: 0px;
+}
+
+.CV-text p {
+  text-align: justify;
+  font-size: 17px;
+}
