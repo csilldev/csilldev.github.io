@@ -97,6 +97,11 @@ blockquote::before {
   height: 270px;
 }
 
+h1 {
+  font-family: Open Sans;
+  font-weight: bold;
+  font-size: 20px;
+}
 
 h2 {
   text-transform: uppercase;
